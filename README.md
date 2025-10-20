@@ -1,8 +1,8 @@
-# 🚀 Laboratorio de Comparación de Algoritmos de Ordenamiento
+#  Laboratorio de Comparación de Algoritmos de Ordenamiento
 
 Aplicación interactiva con interfaz gráfica para analizar y comparar el comportamiento de cuatro algoritmos de ordenamiento clásicos desde una perspectiva teórica y empírica.
 
-## 📋 Descripción
+##  Descripción
 
 Este laboratorio permite ejecutar experiencias para medir y comparar:
 - **Bubble Sort**
@@ -12,27 +12,27 @@ Este laboratorio permite ejecutar experiencias para medir y comparar:
 
 ### Características principales
 
-✨ **Análisis Empírico**
+ **Análisis Empírico**
 - Medición precisa del tiempo de ejecución
 - Conteo de instrucciones ejecutadas
 - Soporte para múltiples tamaños de entrada (ej: 1k, 5k, 10k, etc.)
 
-📊 **Visualización**
+ **Visualización**
 - Gráficos comparativos interactivos
 - Tiempo de ejecución vs. Tamaño de entrada
 - Total de instrucciones vs. Tamaño de entrada
 - Opción de escala logarítmica para mejor visualización
 
-📖 **Análisis Teórico**
+ **Análisis Teórico**
 - Explicación de complejidad temporal de cada algoritmo
 - Comparación de notación Big O
 - Casos peor, promedio y mejor
 
-💾 **Exportación de Datos**
+ **Exportación de Datos**
 - Exportación de resultados en formato CSV
 - Promedios automáticos de múltiples ejecuciones
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### Requisitos Previos
 
@@ -65,27 +65,27 @@ chmod +x CDA_tarea.py
 ./CDA_tarea.py
 ```
 
-## 📖 Cómo usar la aplicación
+##  Cómo usar la aplicación
 
 1. **Configurar tamaños de entrada**: Ingresa una serie de tamaños separados por comas (ej: `1000, 5000, 10000, 50000`)
    - Puedes usar sufijos: `1k` = 1000, `5k` = 5000, `1m` = 1,000,000
 
-2. **Ejecutar experimentos**: Haz clic en "🚀 Ejecutar Serie"
+2. **Ejecutar experimentos**: Haz clic en " Ejecutar Serie"
    - La aplicación generará arrays aleatorios y ejecutará los 4 algoritmos
    - Los resultados se mostrarán en el log de ejecución
 
-3. **Ver gráficos**: Haz clic en "📊 Ver Gráficos Comparativos"
+3. **Ver gráficos**: Haz clic en " Ver Gráficos Comparativos"
    - Pestaña 1: Tiempo de ejecución vs. Tamaño
    - Pestaña 2: Instrucciones vs. Tamaño
    - Checkbox para escala logarítmica
 
-4. **Exportar resultados**: Haz clic en "💾 Exportar Resultados"
+4. **Exportar resultados**: Haz clic en " Exportar Resultados"
    - Genera archivos CSV con los promedios de cada algoritmo
 
 5. **Análisis teórico**: Consulta la pestaña "Análisis Teórico de Complejidad"
    - Explicación detallada de la complejidad de cada algoritmo
 
-## 📊 Complejidades Temporales
+##  Complejidades Temporales
 
 | Algoritmo | Mejor Caso | Caso Promedio | Peor Caso | Espacio |
 |-----------|-----------|---------------|-----------|---------|
@@ -101,7 +101,7 @@ chmod +x CDA_tarea.py
 - **Threading**: Ejecución asíncrona para no bloquear la UI
 - **CSV**: Exportación de resultados
 
-## 📝 Estructura del Código
+##  Estructura del Código
 
 ```
 CDA_tarea.py
@@ -119,7 +119,7 @@ CDA_tarea.py
 └── main(): Punto de entrada
 ```
 
-## 🤝 Contribuciones
+##  Contribuciones
 
 Las contribuciones son bienvenidas. Por favor:
 1. Haz fork del proyecto
@@ -128,15 +128,15 @@ Las contribuciones son bienvenidas. Por favor:
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
 
-## 👤 Autor
+##  Autor
 
 Proyecto creado para el análisis de complejidad de algoritmos.
 
-## 🙏 Agradecimientos
+##  Agradecimientos
 
 - Implementaciones basadas en algoritmos clásicos de ordenamiento
 - Interfaz diseñada para fines educativos
